@@ -11,7 +11,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author       = { "XYS" => "xuyushan8023@163.com" }
 s.platform     = :ios, "9.0"
 s.source       = { :git => "https://github.com/MYXYS/XYSTestFramework.git", :tag => "#{s.version}" }
-s.source_files  = "Sources/*{.swift}"
+s.source_files  = "Sources/*.{swift}"
 s.framework  = "Foundation"
 s.requires_arc = true
 s.dependency "Alamofire", "~> 4.4.0"
